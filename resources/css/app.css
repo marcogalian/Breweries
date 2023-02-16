@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.myMain {
+    flex: 1;
+}
+
+.my-present-container{
+    width: 100% !important;
+    height: 65vh !important;
+}
+
+.my-present-main{
+    /* width: 100% !important; */
+    height: 70% !important;
+}
+
+.my-present-main img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .2em;
+    -webkit-border-radius: .2em;
+    -moz-border-radius: .2em;
+    -ms-border-radius: .2em;
+    -o-border-radius: .2em;
+    box-shadow: #00000012 0px 1px 1px, 
+                #00000012 0px 2px 2px, 
+                #00000012 0px 4px 4px, 
+                #00000012 0px 8px 8px, 
+                #00000012 0px 16px 16px;
+}
+
+.paragrah-main {
+    text-align: justify;
+}
+
+.my-present-main-up{
+    bottom: 40px;
+    left: 70%;
+    opacity: .8;
+    width: 120% !important;
+    height: 70% !important;
+    border-radius: .2em;
+    -webkit-border-radius: .2em;
+    -moz-border-radius: .2em;
+    -ms-border-radius: .2em;
+    -o-border-radius: .2em;
+    box-shadow: #00000012 0px 1px 1px, 
+                #00000012 0px 2px 2px, 
+                #00000012 0px 4px 4px, 
+                #00000012 0px 8px 8px, 
+                #00000012 0px 16px 16px;
+}
+
+.logo-link img{
+    z-index: 1000;
+    position: absolute;
+    top: 5px;
+    left: calc(50% - 3.4rem);
+    padding: .5rem;
+    max-height: 8em;
+    max-width: 8em;
+    
+}
+
+@media (max-width: 991px) {
+    .logo-link {
+    z-index: 1000;
+    position: absolute;
+    top: 5px;
+    right: 100px;
+    padding: .5rem;
+    max-height: 8em;
+    max-width: 8em;
+}
+}
+
+.mybodyWall {
+    /* box-shadow: inset 0 0 0 2000px #ffffffee; */
+    background-image: url('../img/beers-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myImgMain {
+    max-height: 45em;
+}
+
+.myTitle {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    font-weight: 800;
+    color: #257925;
+}
+
+.myCardText {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+}
+
+.score-img {
+    width: 1.5em;
+}
+
+.noScoreImg {
+  filter: grayscale(100%);
+  opacity: .5;
+}
+
+.line-gold {
+    width: 100%;
+    height: 3px;
+}
+
+.myCard, .myLinkBtn {
+    box-shadow: #00000012 0px 1px 1px, 
+                #00000012 0px 2px 2px, 
+                #00000012 0px 4px 4px, 
+                #00000012 0px 8px 8px, 
+                #00000012 0px 16px 16px;
+}
+
+.myCard {
+    border-radius: .1em !important;
+    -webkit-border-radius: .1em !important;
+    -moz-border-radius: .1em !important;
+    -ms-border-radius: .1em !important;
+    -o-border-radius: .1em !important;
+}
+
+.myCardImg{
+    border-radius: .1em .1em 0em 0em!important;
+    -webkit-border-radius: .1em .1em 0em 0em!important;
+    -moz-border-radius: .1em .1em 0em 0em!important;
+    -ms-border-radius: .1em .1em 0em 0em!important;
+    -o-border-radius: .1em .1em 0em 0em!important;
+}
+
+.myNav {
+    margin-bottom: 4.5rem;
+}
+
+
+.myCardBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.myCardBtn {
+    margin-top: auto;
+    /* width: 50%;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.viewShow {
+    max-width: 70% !important;
+}
+
+.viewShowImg {
+    max-width: 30% !important;
+}
+
+li a {
+    font-size: 1.2rem !important;
+}
+
+#mensaje {
+    resize: none;
+}
+
+
+/* login card----------------------------------------------------------------------------------------------------------------------------- */
+
+.myLogin {
+    max-width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.myRegister {
+    max-width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myHome {
+    max-width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
