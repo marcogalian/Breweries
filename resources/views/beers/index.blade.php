@@ -22,7 +22,7 @@
     @guest
        <p class="text-center fs-2"> Usuario anónimo </p>
     @endguest
-     @auth
+    @auth
         <div class="d-flex justify-content-center my-4">
             <p><a class="btn btn-light border border-2 border-warning myLinkBtn" href="{{  route('beers.create') }}">Nueva cerveza</a></p>
         </div>
