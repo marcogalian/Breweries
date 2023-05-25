@@ -7,7 +7,7 @@
 @section('content')
     @foreach ($beers as $beer)
         <x-card 
-            img=" {{ $beer->img}}" 
+            img=" {{ $beer->img }}" 
             titulo="{{ $beer->name }}" 
             contenido="{{ $beer->beertype->name }}" 
 

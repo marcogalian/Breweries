@@ -3,7 +3,7 @@
 @elseif(Route::currentRouteName() == 'brewery.show' || Route::currentRouteName() == 'beers.show')
     <div class="myCard col-8 card my-2 p-0 border-0 viewShowImg">
 @else
-    <div class="myCard col-8 card my-2 p-0 border-0 viewShow">
+    <div class="myCard col-8 card my-5 p-0 border-0 viewShow">
 @endif
     @isset($img)
     <img src=" {{ $img }} " class="card-img-top myCardImg" alt="...">  
